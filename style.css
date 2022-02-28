@@ -1,0 +1,57 @@
+body {
+    background: #58c2bb;
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+input,
+button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    background: white;
+}
+
+select {
+    font-size: 1.5rem;
+    background: white;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: left;
+    background: white;
+    min-width: 25%;
+    list-style-type: none;
+    border: 2px solid black;
+}
+
+.complete-btn {
+    background: #46ea46;
+    padding: 1rem;
+}
+
+.trash-btn {
+    background: #e13737;
+    padding: 1rem;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
